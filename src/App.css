@@ -9,7 +9,7 @@ body {
 
 }
 /* menu links */
-nav a.nav-link {
+nav nav-link {
   /* font-weight: 500; */
   letter-spacing:  0.0375rem;
   cursor: pointer;
@@ -96,6 +96,6 @@ border-top: 0.1875rem solid var(--primary-dark);
 .footer{
   max-width: 100%;
   padding: 0 !important;
-  height: 5% !important;
-  background-color:none;
+  height: auto !important;
+  background-color:none !important;
 }
