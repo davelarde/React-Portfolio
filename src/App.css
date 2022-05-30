@@ -42,3 +42,52 @@ border-top: 0.1875rem solid var(--primary-dark);
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
+
+/* Header */
+.header-wrapper {
+  position: relative;
+  background: url("./sunset.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed"sans-serif;
+  
+}
+
+.main-info h1 {
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+.btn-resume {
+  border:1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding:10px 12px 12px 12px;
+  color: beige;
+}
+
+.btn-resume :hover {
+  text-decoration: none;
+  background-color: orange ;
+  transition: .2s ease-in-out ;
+}
