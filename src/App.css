@@ -91,3 +91,11 @@ border-top: 0.1875rem solid var(--primary-dark);
   background-color: orange ;
   transition: .2s ease-in-out ;
 }
+/* Footer */
+
+.footer{
+  max-width: 100%;
+  padding: 0 !important;
+  height: 5% !important;
+  background-color:none;
+}
