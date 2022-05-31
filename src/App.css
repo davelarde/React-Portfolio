@@ -130,6 +130,52 @@ border-top: 0.1875rem solid var(--primary-dark);
 
 }
 
+#portfolio{
+  background-color:black;
+  color:white;
+  display: flex;
+  position: relative;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+}
+.bg1{
+  background-image:url("https://s3.amazonaws.com/cdn.wp.m4ecmx/wp-content/uploads/2015/05/31143018/Qu%C3%A9-es-el-eCommerce-compressor.jpg");
+  background-position: center;
+}
+
+.bg2{
+  background-image:url("https://www.radfordmedicalpractice.co.uk/wp-content/uploads/sites/622/2022/02/travel.jpeg");
+  background-position: center;
+}
+
+.bg3{
+  background-image:url("https://www.makeareadme.com/images/open-graph-logo.png?v=20181203");
+
+}
+
+.bg4{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaW64TOvgU85uUjEZE_hDnzprVvreD7HSMHw&usqp=CAU");
+background-position: center;
+}
+
+.bg5{
+  background-image:url("https://img.freepik.com/free-photo/group-people-jumping-mountain-sunset-friends-party-happy-time_33755-6224.jpg?w=2000");
+  background-position: center;
+}
+
+.bg6{
+  background-image:url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/05/172370-coding-chrome.jpg?itok=7kebHm3U");
+  background-position: center;
+}
+.card :hover{
+  filter:grayscale(4);
+  cursor: pointer;
+}
+
+
 /* Footer */
 
 .footer{
