@@ -14,7 +14,7 @@ You will need to run the following in your terminal the have full access of the 
 
 
 # Mockup:
-![React Portfolio Live demo in video](./Demo/myreactpage.mp4)
+
 
 ![React Portfolio Live demo gif](./Demo/myreactpage.gif)
 
